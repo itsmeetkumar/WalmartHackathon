@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home3/technkod/finmart.ml/
+    - export DEPLOYPATH =/home3/technkod/finmart/
     - /bin/cp -R images $DEPLOYPATH
