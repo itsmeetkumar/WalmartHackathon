@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#000000">
+    <title>FinMart</title>
+    <meta name="description" content="FinMart HTML Mobile Template">
+    <meta name="keywords" content="bootstrap, wallet, banking, fintech mobile template, cordova, phonegap, mobile, html, responsive" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="manifest" href="__manifest.json">
+</head>
+
+<body class="bg-white">
+
+    <!-- loader -->
+    <div id="loader">
+        <img src="assets/img/loading-icon.png" alt="icon" class="loading-icon">
+    </div>
+    <!-- * loader -->
+
+    <!-- App Header -->
+    <div class="appHeader">
+        <div class="left">
+            <a href="#" class="headerButton goBack">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </a>
+        </div>
+        <div class="pageTitle">
+            Apply for Micro-Loan
+        </div>
+        <div class="right">
+            <a href="#" class="headerButton" data-bs-toggle="modal" data-bs-target="#DialogBasic">
+                <ion-icon name="trash-outline"></ion-icon>
+            </a>
+        </div>
+    </div>
+    <!-- * App Header -->
+
+    <!-- Dialog Basic -->
+    <div class="modal fade dialogbox" id="DialogBasic" data-bs-backdrop="static" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Delete</h5>
+                </div>
+                <div class="modal-body">
+                    Are you sure?
+                </div>
+                <div class="modal-footer">
+                    <div class="btn-inline">
+                        <a href="#" class="btn btn-text-secondary" data-bs-dismiss="modal">CANCEL</a>
+                        <a href="#" class="btn btn-text-primary" data-bs-dismiss="modal">DELETE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- * Dialog Basic -->
+
+    <!-- App Capsule -->
+    <div id="appCapsule" class="full-height">
+        <div class="section mt-2">
+            <div class="card">
+                <div class="card-body">
+                    <div class="p-1">
+                        <div class="text-center">
+                            <h2 class="text-primary">Micro-Loans</h2>
+                            <p>Powered By Walmart</p>
+                        </div>
+                        <form>
+                            <div class="form-group basic animated">
+                                <div class="input-wrapper">
+                                    <label class="label" for="name2">Your name</label>
+                                    <input type="text" class="form-control" id="name2" placeholder="Your name">
+                                    <i class="clear-input">
+                                        <ion-icon name="close-circle"></ion-icon>
+                                    </i>
+                                </div>
+                            </div>
+
+                            <div class="form-group basic animated">
+                                <div class="input-wrapper">
+                                    <label class="label" for="email2">E-mail</label>
+                                    <input type="text" class="form-control" id="email2" placeholder="E-mail">
+                                    <i class="clear-input">
+                                        <ion-icon name="close-circle"></ion-icon>
+                                    </i>
+                                </div>
+                            </div>
+
+                            <div class="form-group basic animated">
+                                <div class="input-wrapper">
+                                    <label class="label" for="email2">SSN</label>
+                                    <input type="text" class="form-control" id="email2" placeholder="SSN">
+                                    <i class="clear-input">
+                                        <ion-icon name="close-circle"></ion-icon>
+                                    </i>
+                                </div>
+                            </div>
+
+                            <div class="form-group basic animated">
+                                <div class="input-wrapper">
+                                    <label class="label" for="name2">Micro-Loan Amount</label>
+                                    <input type="text" class="form-control" id="name2" placeholder="Micro-Loan Amount">
+                                    <i class="clear-input">
+                                        <ion-icon name="close-circle"></ion-icon>
+                                    </i>
+                                </div>
+                            </div>
+
+                            <div class="form-group basic animated">
+                                <div class="input-wrapper">
+                                    <label class="label" for="name2">Phone No</label>
+                                    <input type="text" class="form-control" id="name2" placeholder="Phone No">
+                                    <i class="clear-input">
+                                        <ion-icon name="close-circle"></ion-icon>
+                                    </i>
+                                </div>
+                            </div>
+
+                            <div class="form-group basic animated">
+                                <div class="input-wrapper">
+                                    <label class="label" for="textarea2">Address</label>
+                                    <textarea id="textarea2" rows="4" class="form-control"
+                                        placeholder="Address"></textarea>
+                                    <i class="clear-input">
+                                        <ion-icon name="close-circle"></ion-icon>
+                                    </i>
+                                </div>
+                            </div>
+
+                            <div class="mt-2">
+                                <a href="#" class="item" data-bs-toggle="modal" data-bs-target="#DialogBlockButton">
+                                <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+                                </a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- * App Capsule -->
+    <div class="modal fade dialogbox" id="DialogBlockButton" data-bs-backdrop="static" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="spinner-grow text-primary" role="status"></div>
+                    <h5 class="modal-title">You are eligable for $2500 Micro-Loan</h5>
+                </div>
+                <div class="modal-body">
+                    Do you want to proceed with Application?
+                </div>
+                <div class="modal-footer">
+                    <div class="btn-list">
+                        <a href="#" class="item" data-bs-toggle="modal" data-bs-target="#DialogBlockButton"></a>
+                                
+                        <a href="#" class="btn btn-text-primary btn-block" data-bs-toggle="modal" data-bs-target="#DialogBlockButton1">Apply</a>
+                        <a href="#" class="btn btn-text-secondary btn-block" data-bs-dismiss="modal">CANCEL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade dialogbox" id="DialogBlockButton1" data-bs-backdrop="static" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="spinner-grow text-primary" role="status"></div>
+                    <h5 class="modal-title">We successfully received your application.</h5>
+                </div>
+                <div class="modal-body">
+                You will be notified in few minutes. 
+                </div>
+                <div class="modal-footer">
+                    <div class="btn-list">
+                       
+                        <a href="#" class="btn btn-text-secondary btn-block" data-bs-dismiss="modal">close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- App Bottom Menu -->
+    <div class="appBottomMenu">
+        <a href="index.html" class="item active">
+            <div class="col">
+                <ion-icon name="pie-chart-outline"></ion-icon>
+                <strong>Overview</strong>
+            </div>
+        </a>
+        <a href="spark-notification.html" class="item">
+            <div class="col">
+                <ion-icon name="document-text-outline"></ion-icon>
+                <strong>Notification</strong>
+            </div>
+        </a>
+        <a href="app-components.html" class="item">
+            <div class="col">
+                <ion-icon name="apps-outline"></ion-icon>
+                <strong>My Micro-Loan</strong>
+            </div>
+        </a>
+        <a href="spark-appcards.html" class="item">
+            <div class="col">
+                <ion-icon name="card-outline"></ion-icon>
+                <strong>My Cards</strong>
+            </div>
+        </a>
+        <a href="spark-settings.html" class="item">
+            <div class="col">
+                <ion-icon name="settings-outline"></ion-icon>
+                <strong>Settings</strong>
+            </div>
+        </a>
+    </div>
+    <!-- * App Bottom Menu -->
+
+
+
+    <!-- ========= JS Files =========  -->
+    <!-- Bootstrap -->
+    <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Splide -->
+    <script src="assets/js/plugins/splide/splide.min.js"></script>
+    <!-- Base Js File -->
+    <script src="assets/js/base.js"></script>
+
+
+</body>
+
+</html>
